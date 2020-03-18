@@ -87,6 +87,19 @@ create-react-app:
         const Header = () => <header id="main-header">JSHunt</header>;
 
         export default Header;
+        
+        
+        ===
+        
+         const Header = () => {
+            return (
+                <header id="main-header">JSHunt</header>
+            );
+         }
+
+        export default Header;
+        
+        
 
 
 # Buscando produtos na API
